@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
     
 
-@CucumberOptions(features = {"/Users/parikshit/workspace/DSALGO/src/test/resources/features/PracticeSearchArray.feature"}, 
+@CucumberOptions(features = {"/Users/parikshit/workspace/DSALGO/src/test/resources/features"}, 
 glue = {"stepdefinitions", "hooks"},
 		 plugin = { "pretty","html:target/index.html","json:target/cucumber-reports/Cucumber.json",
 //				"html:target/cucumber-reports/index.html",
